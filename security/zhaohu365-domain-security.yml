@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: zhaohu365.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 16 23:59:59 2027 GMT
+  hsts: false
+domains:
+- domain: zhaohu365.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
